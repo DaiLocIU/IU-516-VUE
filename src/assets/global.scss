@@ -1,0 +1,130 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+input,
+select {
+  font-family: "Roboto", Tahoma,serif;
+  font-size: 14px;
+  margin: 0;
+  text-decoration: none;
+  padding: 0;
+}
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+
+  background: transparent;
+
+  /* inherit font & color from ancestor */
+  color: inherit;
+  font: inherit;
+
+  /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+  line-height: normal;
+
+  /* Corrects font smoothing for webkit */
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+
+  /* Corrects inability to style clickable `input` types in iOS */
+  -webkit-appearance: none;
+
+  &::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+}
+a {
+  color: #666666;
+}
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap");
+body {
+  font-family: Nunito, serif;
+  line-height: 18px;
+  text-rendering: optimizeLegibility;
+  background: #fff;
+  color: #333333;
+}
+
+a img {
+  border: none;
+}
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --text-black-primary: #666666;
+  --text-black-secondary: #222222;
+  --border-color-base: #e8e8e8;
+  --border-color-lighter: #e2e2e2;
+}
+
+
+// storybook
+
+.sb-show-main.sb-main-padded {
+  padding: 0;
+}
